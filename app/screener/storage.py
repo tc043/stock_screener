@@ -9,11 +9,11 @@ load_dotenv()
 
 # Fetch variables
 SUPABASE_DB_URL = os.getenv("SUPABASE_DB_URL")
-USER = os.getenv("user")
-PASSWORD = os.getenv("password")
-HOST = os.getenv("host")
-PORT = os.getenv("port")
-DBNAME = os.getenv("dbname")
+USER = os.getenv("USER")
+PASSWORD = os.getenv("PASSWORD")
+HOST = os.getenv("HOST")
+PORT = os.getenv("PORT")
+DBNAME = os.getenv("DBNAME")
 
 # Verify environment variables
 print("DB URL:", SUPABASE_DB_URL)
