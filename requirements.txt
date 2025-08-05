@@ -4,3 +4,5 @@ yfinance
 pandas
 sqlalchemy
 streamlit
+psycopg2-binary
+python-dotenv
